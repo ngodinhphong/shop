@@ -144,6 +144,11 @@
         flex: unset;
     }
 
+    .footer__download-app-link {
+        display: block;
+        padding: 6px 8px;
+    }
+
     @keyframes mobileSearchSideIn {
         from {
             opacity: 0;
