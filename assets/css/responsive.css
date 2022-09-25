@@ -1,9 +1,6 @@
 /* mobile & table */
 @media (max-width: 1023px) {
-    :root {
-        --header-height: 68px;
-        --navbar-heigth: 0px;
-    }
+    
 
     .hide-on-mobile-tablet {
         display: none;
@@ -48,7 +45,11 @@
 
 }
 
-/* table */
+/* table */:root {
+        --header-height: 68px;
+        --navbar-heigth: 0px;
+    }
+
 @media (min-width: 740px) and (max-width: 1023px) {
     .hide-on-table {
         display: none;
@@ -60,7 +61,11 @@
     }
 }
 
-/* mobile */
+/* mobile */:root {
+        --header-height: 54px;
+        --navbar-heigth: 0px;
+    }
+
 @media (max-width: 739px) {
     .hide-on-mobile {
         display: none;
@@ -124,6 +129,19 @@
 
     .footer__content {
         padding: 0 16px;
+    }
+
+    .footer__heading {
+        text-align: center;
+    }
+
+    .footer__download,
+    .footer-item-link {
+        justify-content: center;
+    }
+
+    .footer__download-app {
+        flex: unset;
     }
 
     @keyframes mobileSearchSideIn {
