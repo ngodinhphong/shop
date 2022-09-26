@@ -45,12 +45,14 @@
 
 }
 
-/* table */:root {
+/* table */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    :root {
         --header-height: 68px;
         --navbar-heigth: 0px;
     }
-
-@media (min-width: 740px) and (max-width: 1023px) {
+    
     .hide-on-table {
         display: none;
     }
@@ -61,12 +63,14 @@
     }
 }
 
-/* mobile */:root {
+/* mobile */
+
+@media (max-width: 739px) {
+    :root {
         --header-height: 54px;
         --navbar-heigth: 0px;
     }
 
-@media (max-width: 739px) {
     .hide-on-mobile {
         display: none;
     }
