@@ -89,7 +89,7 @@
         top: var(--header-height);
         left: 0;
         right: 0;
-        height: 46px;
+        height: var(--header-height);
         box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
         z-index: 1;
         padding: 0 16px;
